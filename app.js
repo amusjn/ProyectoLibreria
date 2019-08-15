@@ -8,6 +8,4 @@ app.get('/', (req, res) => {
     });
 });
 
-app.listen (port, (req, res) => {
-    console.log(`El servidor esta online en el puerto ${port}.`);
-});
+app.listen (port);
